@@ -1,0 +1,16 @@
+aws autoscaling create-launch-configuration --launch-configuration-name odtestlaunch --image-id ami-d03ea1e0 --instance-type t1.micro
+
+
+
+
+
+
+arn:aws:s3:::bucket131/*
+
+http://arn:aws:s3:::bucket131.s3-website-us-east-1.amazonaws.com/apiGateway-js-sdk/index.html
+
+aws iot create-keys-and-certificate --set-as-active \
+--certificate-pem-outfile certs/certificate.pem.crt \
+--public-key-outfile certs/public.pem.key \
+--private-key-outfile certs/private.pem.key \
+--region us-west-2c
